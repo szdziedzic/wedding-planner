@@ -1,0 +1,8 @@
+build:
+  name: Run tests
+  steps:
+    - eas/checkout
+    - eas/install_node_modules
+    - run:
+        name: Run tests
+        command: bun run test
