@@ -23,7 +23,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.szdziedzic.weddingplanner"
     },
     "web": {
       "bundler": "metro",
@@ -35,6 +36,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "6fdecf1a-53e3-4691-a0ad-6f09b77b6b67"
+      }
+    },
+    "owner": "szdziedzic"
   }
 }
